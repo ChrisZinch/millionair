@@ -1,0 +1,339 @@
+[
+  {
+    "id": 1,
+    "questionId": 1,
+    "title": "Ukraine",
+    "isCorrect": true,
+    "letter": "A"
+  },
+  {
+    "id": 2,
+    "questionId": 1,
+    "title": "Poland",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 3,
+    "questionId": 1,
+    "title": "Switzeland",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 4,
+    "questionId": 1,
+    "title": "Norway",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 5,
+    "questionId": 2,
+    "title": "2001",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 6,
+    "questionId": 2,
+    "title": "2010",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 7,
+    "questionId": 2,
+    "title": "2007",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 8,
+    "questionId": 2,
+    "title": "2005",
+    "isCorrect": true,
+    "letter": "D"
+  },
+  {
+    "id": 9,
+    "questionId": 3,
+    "title": "15",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 10,
+    "questionId": 3,
+    "title": "20",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 11,
+    "questionId": 3,
+    "title": "25",
+    "isCorrect": true,
+    "letter": "C"
+  },
+  {
+    "id": 12,
+    "questionId": 3,
+    "title": "30",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 13,
+    "questionId": 4,
+    "title": "Pancake Batter",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 14,
+    "questionId": 4,
+    "title": "Peach Brandy",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 15,
+    "questionId": 4,
+    "title": "Peanut Butter",
+    "isCorrect": true,
+    "letter": "C"
+  },
+  {
+    "id": 16,
+    "questionId": 4,
+    "title": "Pickle Brine",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 17,
+    "questionId": 5,
+    "title": "M",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 18,
+    "questionId": 5,
+    "title": "L",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 19,
+    "questionId": 5,
+    "title": "G",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 20,
+    "questionId": 5,
+    "title": "D",
+    "isCorrect": true,
+    "letter": "D"
+  },
+  {
+    "id": 21,
+    "questionId": 6,
+    "title": "2 kg",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 22,
+    "questionId": 6,
+    "title": "3,85 kg",
+    "isCorrect": true,
+    "letter": "B"
+  },
+  {
+    "id": 23,
+    "questionId": 6,
+    "title": "4,5 kg",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 24,
+    "questionId": 6,
+    "title": "5 kg",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 25,
+    "questionId": 7,
+    "title": "Plankton",
+    "isCorrect": true,
+    "letter": "A"
+  },
+  {
+    "id": 26,
+    "questionId": 7,
+    "title": "Misheep",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 27,
+    "questionId": 7,
+    "title": "Humans",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 28,
+    "questionId": 7,
+    "title": "Cats",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 29,
+    "questionId": 8,
+    "title": "Italy",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 30,
+    "questionId": 8,
+    "title": "Spain",
+    "isCorrect": true,
+    "letter": "B"
+  },
+  {
+    "id": 31,
+    "questionId": 8,
+    "title": "France",
+    "isCorrect": false,
+    "letter": "C"
+  },
+
+  {
+    "id": 32,
+    "questionId": 8,
+    "title": "Germany",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 33,
+    "questionId": 9,
+    "title": "Al Pacino",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 34,
+    "questionId": 9,
+    "title": "Kirk Douglas",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 35,
+    "questionId": 9,
+    "title": "Jack Nicholson",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 36,
+    "questionId": 9,
+    "title": "Michael Douglas",
+    "isCorrect": true,
+    "letter": "D"
+  },
+  {
+    "id": 37,
+    "questionId": 10,
+    "title": "1945",
+    "isCorrect": true,
+    "letter": "A"
+  },
+  {
+    "id": 38,
+    "questionId": 10,
+    "title": "1941",
+    "isCorrect": false,
+    "letter": "B"
+  },
+  {
+    "id": 39,
+    "questionId": 10,
+    "title": "1968",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 40,
+    "questionId": 10,
+    "title": "1981",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 41,
+    "questionId": 11,
+    "title": "15",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 42,
+    "questionId": 11,
+    "title": "11",
+    "isCorrect": true,
+    "letter": "B"
+  },
+  {
+    "id": 43,
+    "questionId": 11,
+    "title": "12",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 44,
+    "questionId": 11,
+    "title": "13",
+    "isCorrect": false,
+    "letter": "D"
+  },
+  {
+    "id": 45,
+    "questionId": 12,
+    "title": "100",
+    "isCorrect": false,
+    "letter": "A"
+  },
+  {
+    "id": 46,
+    "questionId": 12,
+    "title": "1500",
+    "isCorrect": true,
+    "letter": "B"
+  },
+  {
+    "id": 47,
+    "questionId": 12,
+    "title": "800",
+    "isCorrect": false,
+    "letter": "C"
+  },
+  {
+    "id": 48,
+    "questionId": 12,
+    "title": "500",
+    "isCorrect": false,
+    "letter": "D"
+  }
+]

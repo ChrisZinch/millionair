@@ -1,0 +1,31 @@
+.questions {
+  margin-top: 83px;
+}
+
+.questions__item {
+  font-size: 32px;
+  display: block;
+  max-width: 625px;
+  width: 50vw;
+  font-weight: 600;
+}
+
+.questions__photo {
+  width: 220px;
+  left: 0;
+  position: relative;
+  border-style: groove;
+}
+
+@media screen and (max-width: 750px) {
+  .questions__item {
+    font-size: 26px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .questions__item {
+    font-size: 16px;
+  }
+}

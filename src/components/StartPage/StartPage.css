@@ -1,0 +1,132 @@
+.start {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right bottom, #fff 50%, #fff3eb 50%);
+}
+
+.start__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 245px;
+}
+
+.start__right {
+  width: 624px;
+  height: 260px;
+}
+
+.start__left {
+  margin-left: -32px;
+}
+
+.start__title {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.start__button {
+  width: 50%;
+  height: 64px;
+  margin-top: 64px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border: 2px solid #ff8b37;
+  border-radius: 12px;
+  background-color: #ff8b37;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition: 0.5s;
+}
+
+.start__button:active {
+  background-color: #e87928;
+}
+
+.start__button:hover {
+  animation-name: pulse;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  background: #ffac70;
+  border-color: #ffac70;
+}
+
+.hand {
+  transition: 0.5s;
+}
+
+.hand:hover {
+  transform: scale(1.2, 1.2) rotate(360deg);
+}
+
+@media screen and (max-width: 1250px) {
+  .start__title {
+    font-size: 35px;
+  }
+  .hand {
+    width: 500px;
+    height: 400px;
+  }
+  .start__right {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .start__title {
+    font-size: 25px;
+  }
+  .hand {
+    width: 400px;
+  }
+  .start__right {
+    width: 400px;
+    height: 180px;
+  }
+  .start__button {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hand {
+    margin-left: 0;
+  }
+  .start__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-top: 0;
+  }
+  .start__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start__button {
+    width: 300px;
+  }
+}

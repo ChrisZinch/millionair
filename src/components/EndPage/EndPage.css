@@ -1,0 +1,145 @@
+.end {
+  width: 100vw;
+  height: 100vh;
+}
+
+.end__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 245px;
+}
+
+.end__right {
+  width: 624px;
+  height: 260px;
+}
+
+.end__left {
+  margin-left: -32px;
+}
+
+.end__title {
+  color: #d0d0d8;
+  font-size: 32px;
+}
+
+.end__score {
+  display: block;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.end__button {
+  width: 50%;
+  height: 64px;
+  margin-top: 64px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border: 2px solid #ff8b37;
+  border-radius: 12px;
+  background-color: #ff8b37;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.end__button:hover {
+  background: #ffac70;
+  border-color: #ffac70;
+}
+
+.hand {
+  transition: 0.5s;
+}
+
+.hand:hover {
+  transform: scale(0.8, 0.8) rotate(-360deg);
+}
+
+.winner {
+  font-size: 30px;
+  color: #ffac70;
+  animation: winner 0.7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes winner {
+  to {
+    transform: scale(1.1, 1.1);
+    color: #ffd62a;
+  }
+}
+
+.next {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 1250px) {
+  .end__title {
+    font-size: 35px;
+  }
+  .end__score,
+  .next {
+    font-size: 35px;
+  }
+  .hand {
+    width: 500px;
+    height: 400px;
+  }
+  .end__right {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .end__title,
+  .end__score,
+  .next {
+    font-size: 25px;
+  }
+  .hand {
+    width: 400px;
+  }
+  .end__right {
+    width: 350px;
+    height: 180px;
+  }
+  .end__button {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hand {
+    margin-left: 0;
+  }
+  .end__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-top: 0;
+  }
+  .end__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .end__left {
+    margin-left: 0;
+  }
+  .end__button {
+    width: 300px;
+  }
+}
