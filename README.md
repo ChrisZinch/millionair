@@ -14,6 +14,6 @@ The projects was created with:
 
 
 # Without installation
-Design of the game you could find [here](https://www.figma.com/file/tIZEZn2HTAeSDQRzoOzvXE/Front-end-test%2C-Headway?node-id=0%3A1);
-Click the link to see [DEMO LINK](https://chriszinch.github.io/millionair/)
+- Design of the game you could find [here](https://www.figma.com/file/tIZEZn2HTAeSDQRzoOzvXE/Front-end-test%2C-Headway?node-id=0%3A1);
+- Click the link to see [DEMO LINK](https://chriszinch.github.io/millionair/)
 
