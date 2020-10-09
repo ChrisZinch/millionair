@@ -15,7 +15,7 @@ export const GamePage = ({ currentQuestionId, userAnswer, selectedAnswer }) => {
     .find(question => question.id === currentQuestionId);
   const [visibleMenu, setVisibleMenu] = useState(false);
   const handleChangeVisible = () => {
-    setVisibleMenu(true);
+    setVisibleMenu(!visibleMenu);
   };
 
   return (
