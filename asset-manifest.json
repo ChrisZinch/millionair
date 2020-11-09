@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.2b4b08d5.chunk.css",
-    "main.js": "./static/js/main.4b0f64b6.chunk.js",
-    "main.js.map": "./static/js/main.4b0f64b6.chunk.js.map",
+    "main.css": "./static/css/main.e2dc3ef5.chunk.css",
+    "main.js": "./static/js/main.4a24ec85.chunk.js",
+    "main.js.map": "./static/js/main.4a24ec85.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.1201f54e.js",
     "runtime-main.js.map": "./static/js/runtime-main.1201f54e.js.map",
-    "static/js/2.9bb3834d.chunk.js": "./static/js/2.9bb3834d.chunk.js",
-    "static/js/2.9bb3834d.chunk.js.map": "./static/js/2.9bb3834d.chunk.js.map",
+    "static/js/2.28b5b88c.chunk.js": "./static/js/2.28b5b88c.chunk.js",
+    "static/js/2.28b5b88c.chunk.js.map": "./static/js/2.28b5b88c.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.2a0efc7316ec4e93f5fe3336b7e6256b.js": "./precache-manifest.2a0efc7316ec4e93f5fe3336b7e6256b.js",
+    "precache-manifest.f47c247ce35fe3349e32c4c5542ca836.js": "./precache-manifest.f47c247ce35fe3349e32c4c5542ca836.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.2b4b08d5.chunk.css.map": "./static/css/main.2b4b08d5.chunk.css.map",
-    "static/js/2.9bb3834d.chunk.js.LICENSE.txt": "./static/js/2.9bb3834d.chunk.js.LICENSE.txt",
+    "static/css/main.e2dc3ef5.chunk.css.map": "./static/css/main.e2dc3ef5.chunk.css.map",
+    "static/js/2.28b5b88c.chunk.js.LICENSE.txt": "./static/js/2.28b5b88c.chunk.js.LICENSE.txt",
     "static/media/Answers.css": "./static/media/wrongBTN.fb9a878a.svg",
-    "static/media/GamePage.css": "./static/media/phone-solid.584f89de.svg",
     "static/media/hand.svg": "./static/media/hand.276b2ba6.svg",
+    "static/media/GamePage.css": "./static/media/phone-solid.584f89de.svg",
     "static/media/photoQuestion10.jpg": "./static/media/photoQuestion10.cbbc5c48.jpg",
-    "static/media/Menu.css": "./static/media/stepSelected.345fbf3a.svg"
+    "static/media/WinningList.css": "./static/media/stepSelected.345fbf3a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1201f54e.js",
-    "static/js/2.9bb3834d.chunk.js",
-    "static/css/main.2b4b08d5.chunk.css",
-    "static/js/main.4b0f64b6.chunk.js"
+    "static/js/2.28b5b88c.chunk.js",
+    "static/css/main.e2dc3ef5.chunk.css",
+    "static/js/main.4a24ec85.chunk.js"
   ]
 }
