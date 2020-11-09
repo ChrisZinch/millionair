@@ -54,12 +54,8 @@
   transition: 0.5s;
 }
 
-.hand:hover {
-  transform: scale(0.8, 0.8) rotate(-360deg);
-}
-
 .winner {
-  font-size: 30px;
+  font-size: 25px;
   color: #ffac70;
   animation: winner 0.7s;
   animation-timing-function: ease-in-out;
@@ -78,7 +74,7 @@
   font-size: 35px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
   .end__title {
     font-size: 35px;
   }
@@ -122,6 +118,8 @@
   }
   .hand {
     margin-left: 0;
+    width: inherit;
+    height: 320px;
   }
   .end__content {
     display: flex;
@@ -129,17 +127,21 @@
     justify-content: center;
     align-self: center;
     padding-top: 0;
+    width: inherit;
   }
   .end__right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: inherit;
   }
   .end__left {
     margin-left: 0;
+    width: inherit;
   }
   .end__button {
+    margin-top: 30px;
     width: 300px;
   }
 }

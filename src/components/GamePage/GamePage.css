@@ -1,6 +1,6 @@
 .main-content {
   display: grid;
-  grid-template: auto / 1fr 26vw;
+  grid-template: auto / 1fr 376px;
   padding-left: 80px;
   width: 100vw;
   height: 100vh;
@@ -17,7 +17,9 @@
   justify-content: space-evenly;
   width: 400px;
   height: 50px;
-  margin-top: 50px;
+  position: absolute;
+  z-index: 5;
+  top: 15px;
 }
 
 .call {
@@ -36,8 +38,9 @@
 }
 
 .menu-button {
-  background-image: url(../../images/Union.svg);
+  background-image: url(../../images/Union.jpg);
   background-repeat: no-repeat;
+  background-color: transparent;
   width: 30px;
   height: 20px;
   object-fit: contain;
@@ -45,9 +48,14 @@
   border: 0;
   opacity: 0;
   cursor: pointer;
+
 }
 
-@media screen and (max-width: 650px) {
+.menu-button--active {
+  background-image: url(../../images/cross.jpg);
+}
+
+@media screen and (max-width: 1300px) {
   .main-content {
     display: flex;
     flex-direction: column;
@@ -65,7 +73,6 @@
   .connection {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
     width: 100vw;
     position: absolute;
   }

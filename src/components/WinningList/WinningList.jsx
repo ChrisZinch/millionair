@@ -7,8 +7,15 @@ import './WinningList.css';
 
 const preparedMoney = money.sort((a, b) => b.id - a.id);
 
-export const WinningList = ({ id }) => (
-  <div className="side-bar">
+export const WinningList = ({ id, visibleMenu }) => (
+  <div
+    className={
+      ClassNames(
+        'side-bar',
+        { 'side-bar--active': visibleMenu },
+      )
+    }
+  >
     <ul className="winning-list">
       {preparedMoney.map(part => (
         <li
@@ -27,4 +34,5 @@ export const WinningList = ({ id }) => (
 
 WinningList.propTypes = {
   id: PropTypes.number.isRequired,
+  visibleMenu: PropTypes.bool.isRequired,
 };

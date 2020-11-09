@@ -17,6 +17,7 @@ a {
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
+  overflow: hidden;
 }
 
 .app {

@@ -1,12 +1,13 @@
 .side-bar {
   height: 100%;
-  width: 26vw;
+  width: 376px;
   position: absolute;
   right: 0;
   background-color: #fff;
 }
 
 .winning-list {
+  width: 376px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -64,42 +65,35 @@
   background-color: #ff8b37;
 }
 
-@media screen and (min-width: 1600px) {
-  .winning-list {
-    max-width: 400px;
+@media screen and (max-width: 1300px) {
+  .side-bar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-100%);
+    transition-duration: 0.5s;
+    z-index: 4;
+  }
+  .side-bar--active {
+    transform: translateY(0);
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 450px) {
   .winning-list__item {
-    font-size: 16px;
-    line-height: 200%;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
     margin-top: 4px;
   }
+
   .winning-list__item::before,
   .winning-list__item::after {
-    top: 35%;
+    top: 12px;
   }
-}
 
-@media screen and (max-width: 950px) {
-  .winning-list__item {
-    height: 30px;
-    line-height: 170%;
-    font-size: 14px;
-    margin-top: 0;
-  }
-  .winning-list__item::before,
-  .winning-list__item::after {
-    top: 30%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .side-bar {
-    visibility: hidden;
-  }
-  .winning-list {
-    visibility: hidden;
-  }
 }

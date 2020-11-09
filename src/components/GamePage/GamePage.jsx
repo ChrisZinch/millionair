@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
+import ClassNames from 'classnames';
 import PropTypes from 'prop-types';
 import { WinningList } from '../WinningList/WinningList';
 import { Questions } from '../Questions/Questions';
 import { Answers } from '../Answers/Answers';
 import questions from '../../api/questions.json';
-import { Menu } from '../Menu/Menu';
 
 import './GamePage.css';
 
@@ -22,9 +22,6 @@ export const GamePage = ({ currentQuestionId, userAnswer, selectedAnswer }) => {
     <>
       {userAnswer && (
         <div className="main-content">
-          {visibleMenu && (
-            <Menu visibleMenu={visibleMenu} setVisible={setVisibleMenu} />
-          )}
           <div className="right__part">
             <div className="connection">
               <a
@@ -39,14 +36,19 @@ export const GamePage = ({ currentQuestionId, userAnswer, selectedAnswer }) => {
               />
               <button
                 type="button"
-                className="menu-button"
+                className={ClassNames(
+                  'menu-button',
+                  { 'menu-button--active': visibleMenu },
+                )}
                 onClick={handleChangeVisible}
-              />
+              >
+                <span />
+              </button>
             </div>
             <Questions {...preparedQuestion} />
             <Answers id={currentQuestionId} selectedAnswer={selectedAnswer} />
           </div>
-          <WinningList id={currentQuestionId} />
+          <WinningList id={currentQuestionId} visibleMenu={visibleMenu} />
         </div>
       )}
       {!userAnswer && (

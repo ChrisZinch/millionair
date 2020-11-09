@@ -2,28 +2,28 @@
   {
     "id": 1,
     "questionId": 1,
-    "title": "Ukraine",
+    "title": "Earth",
     "isCorrect": true,
     "letter": "A"
   },
   {
     "id": 2,
     "questionId": 1,
-    "title": "Poland",
+    "title": "Neptune",
     "isCorrect": false,
     "letter": "B"
   },
   {
     "id": 3,
     "questionId": 1,
-    "title": "Switzeland",
+    "title": "Mercury",
     "isCorrect": false,
     "letter": "C"
   },
   {
     "id": 4,
     "questionId": 1,
-    "title": "Norway",
+    "title": "Mars",
     "isCorrect": false,
     "letter": "D"
   },
@@ -311,28 +311,28 @@
   {
     "id": 45,
     "questionId": 12,
-    "title": "100",
+    "title": "Yuri Gagarin",
     "isCorrect": false,
     "letter": "A"
   },
   {
     "id": 46,
     "questionId": 12,
-    "title": "1500",
+    "title": "Gus Grissom",
     "isCorrect": true,
     "letter": "B"
   },
   {
     "id": 47,
     "questionId": 12,
-    "title": "800",
+    "title": "Vladimir Titov",
     "isCorrect": false,
     "letter": "C"
   },
   {
     "id": 48,
     "questionId": 12,
-    "title": "500",
+    "title": "Michael Collins",
     "isCorrect": false,
     "letter": "D"
   }
