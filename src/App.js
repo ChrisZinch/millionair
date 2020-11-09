@@ -5,7 +5,7 @@ import { GamePage } from './components/GamePage/GamePage';
 import { EndPage } from './components/EndPage/EndPage';
 
 function App() {
-  const [currentQuestionId, setCurrentQuestionId] = useState(1);
+  const [currentQuestionId, setCurrentQuestionId] = useState(10);
   const [userAnswer, setUserAnswer] = useState(true);
   const selectedAnswer = (correct) => {
     if (correct) {

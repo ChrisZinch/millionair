@@ -90,10 +90,10 @@
     width: 320px;
   }
   .item__wrapper::before {
-    top: 25px;
+    top: 26px;
   }
   .item__wrapper::after {
-    right: -80%;
+    right: -81%;
     bottom: 25px;
   }
   .answers-list__item {
@@ -113,10 +113,12 @@
     width: 220px;
   }
   .item__wrapper::before {
-    visibility: hidden;
+    top: 22px;
+    left: -16px;
   }
   .item__wrapper::after {
-    visibility: hidden;
+    bottom: 29px;
+    right: -99%;
   }
   .answers-list__item {
     width: 220px;

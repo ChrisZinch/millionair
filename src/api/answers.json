@@ -255,28 +255,28 @@
   {
     "id": 37,
     "questionId": 10,
-    "title": "1945",
+    "title": "On his legs",
     "isCorrect": true,
     "letter": "A"
   },
   {
     "id": 38,
     "questionId": 10,
-    "title": "1941",
+    "title": "On his head",
     "isCorrect": false,
     "letter": "B"
   },
   {
     "id": 39,
     "questionId": 10,
-    "title": "1968",
+    "title": "On his arms",
     "isCorrect": false,
     "letter": "C"
   },
   {
     "id": 40,
     "questionId": 10,
-    "title": "1981",
+    "title": "On his hands",
     "isCorrect": false,
     "letter": "D"
   },

@@ -10,13 +10,6 @@
   font-weight: 600;
 }
 
-.questions__photo {
-  width: 220px;
-  left: 0;
-  position: relative;
-  border-style: groove;
-}
-
 @media screen and (max-width: 750px) {
   .questions__item {
     font-size: 26px;
